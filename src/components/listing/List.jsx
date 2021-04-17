@@ -9,20 +9,20 @@ function List({ data }) {
           <div className="bg-primaryColor text-white font-weight-bold text-center py-2 mb-3">
             {name}
           </div>
-          <ul class="list-group">
-            <li class="list-group-item">
+          <ul className="list-group">
+            <li className="list-group-item">
               <span className="font-weight-bold text-blue">Brand:</span> {brand}
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <span className="font-weight-bold text-blue">Price:</span> {price}
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <span className="font-weight-bold text-blue">Color:</span> {color}
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <span className="font-weight-bold text-blue">RAM:</span> {ram}
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <span className="font-weight-bold text-blue">ROM:</span> {rom}
             </li>
           </ul>
